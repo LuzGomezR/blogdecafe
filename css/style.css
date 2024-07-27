@@ -136,6 +136,10 @@ img{
     font-size: 2rem;
 }
 
+/*Estilos para el pie de pagina*/
+.footer{
+    background-color: rgb(0, 0, 0);
+}
 
 @media (min-width: 768px) { /*Ajusta los tamaños despues de los 768px*/
     .barra{
