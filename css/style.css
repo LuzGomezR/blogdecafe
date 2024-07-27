@@ -62,4 +62,35 @@ h4{
     background-repeat: no-repeat; /* No repetir la imagen */
     background-position: center center; /* centrar izq-der arr-abj */
 }
+.header__texto{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5rem;
+}
+.logo {
+    color: rgb(255, 255, 255);
+}
+.logo__nombre{
+    font-weight: 400;
+}
+.logo__bold{        
+    font-weight: 700;
+}
+.navegacion__enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+}
 
+@media (min-width: 768px) {
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navegacion{
+        display: flex;
+        gap: 2rem;
+    }
+}
