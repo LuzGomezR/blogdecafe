@@ -55,3 +55,11 @@ h4{
     text-align: center;
 }
 
+.header{
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover; /* Utilizar todo el tamaño disponible */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position: center center; /* centrar izq-der arr-abj */
+}
+
